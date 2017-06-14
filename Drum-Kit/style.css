@@ -1,0 +1,38 @@
+body {
+    background-image:  linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.65)), url(https://source.unsplash.com/gv1T8bOoAUs);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 21%;
+}
+
+.key {
+    display: block;
+    width: 90px;
+    height: 90px;
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    border-radius: 50%;
+    border: 5px solid #0045b4;
+    box-shadow: 0 0 25px 7px rgba(0, 0, 0, 0.35);
+    transition: all .07s;
+}
+
+p {
+    padding-top: 13px;
+    font-size: 20px;
+    font-family: "Lato";
+    font-weight: 700;
+}
+
+.playing {
+    transform: scale(1.5);
+    box-shadow: 0 0 25px 7px rgb(0, 177, 255);
+}
