@@ -1,0 +1,61 @@
+<!doctype html>
+
+<html>
+	<head>
+		<title>The Color Guessing Game</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+	</head>
+
+	<body>
+       
+        <div class="head">
+            <div class="title">
+                <h1>Choose the correct color</h1>
+                <h2>RGB (255, 255, 255)</h2>
+            </div>
+            
+            <div class="stripe">
+                <div class="left">
+                    <button class="reset-button">New Colors?</button>    
+                </div>
+                
+                <div class="right">
+                    <ul>
+                        <button data-btn="easy" class="btn">Easy</button>
+                        <button data-btn="medium" class="btn active">Medium</button>
+                        <button data-btn="hard" class="btn">Hard</button>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        
+        <div class="reset">
+        </div>
+        
+        <div class="wrapper">
+            <div class="row">
+                <div class="square" data-square=1></div>
+                <div class="square" data-square=2></div>
+                <div class="square" data-square=3></div>
+            </div>
+            
+            <div class="row">
+                <div class="square" data-square=4></div>
+                <div class="square" data-square=5></div>
+                <div class="square" data-square=6></div>
+            </div>
+               
+            <div class="row">
+                <div class="square" data-square=7></div>
+                <div class="square" data-square=8></div>
+                <div class="square" data-square=9></div>
+            </div>
+        </div>
+        
+        <script src="script.js"></script>
+        
+	</body>
+</html>
