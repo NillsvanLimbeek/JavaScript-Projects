@@ -1,0 +1,168 @@
+/*-- 1024px to 1200px --*/
+@media only screen and (max-width: 1200px) {
+    .weather-icon {
+    margin-right: 10px;
+    margin-bottom: 35px;
+    }
+
+    .weather-icon i {
+        font-size: 125px;
+    }
+
+    .temperature {
+        margin-right: 40px;
+    }
+
+    .temperature p {
+        margin: 0;
+        font-size: 125px;
+    }
+    
+    .condition {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 50vw;
+        margin-bottom: 75px;
+        margin-left: 25px;
+    }
+
+    .condition p {
+        margin: 0;
+        padding: 5px;
+        font-size: 20px;
+    }
+    
+    .buttons {
+        width: 50vw;
+        padding-top: 57px;
+    }
+    
+    .celsius,
+    .fahrenheit {
+        display: block;
+        width: 100px;
+        margin: 0 0 3px 0;
+        padding: 5px 5px 5px 15px;
+        font-size: 20px;
+    }
+    
+    .footer p {
+        font-size: 15px;
+    }
+}
+
+
+/*-- 768px to 1023px --*/
+@media only screen and (max-width: 1023px) {
+    
+    .weather-icon {
+        margin-right: 10px;
+        margin-bottom: 35px;
+    }
+
+    .weather-icon i {
+        font-size: 100px;
+    }
+
+    .temperature {
+        margin-right: 40px;
+    }
+
+    .temperature p {
+        margin: 0;
+        font-size: 100px;
+    }
+    
+    .condition {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 50vw;
+        margin-bottom: 50px;
+        margin-left: 25px;
+    }
+
+    .condition p {
+        margin: 0;
+        padding: 5px;
+        font-size: 17px;
+    }
+    
+    .buttons {
+        width: 50vw;
+        padding-top: 37px;
+    }
+    
+    .celsius,
+    .fahrenheit {
+        display: block;
+        width: 85px;
+        margin: 0 0 3px 0;
+        padding: 5px 5px 5px 15px;
+        font-size: 17px;
+    }
+}
+
+
+/*-- 481px to 767px --*/
+@media only screen and (max-width: 767px) {
+    
+}
+
+/*-- 0px to 480px --*/
+@media only screen and (max-width: 480px) {
+    
+        .weather-icon {
+        margin-right: 10px;
+        margin-bottom: 35px;
+    }
+
+    .weather-icon i {
+        font-size: 75px;
+    }
+
+    .temperature {
+        margin-right: 40px;
+    }
+
+    .temperature p {
+        margin: 0;
+        font-size: 75px;
+    }
+    
+    .condition {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 50vw;
+        margin-bottom: 43px;
+        margin-left: 25px;
+    }
+
+    .condition p {
+        margin: 0;
+        padding: 5px;
+        font-size: 15px;
+    }
+    
+    .buttons {
+        width: 50vw;
+        padding-top: 23px;
+    }
+    
+    .celsius,
+    .fahrenheit {
+        display: block;
+        width: 85px;
+        margin: 0 0 3px 0;
+        padding: 5px 5px 5px 15px;
+        font-size: 15px;
+    }
+    
+    .footer p {
+        font-size: 10px;
+    }
+    
+}
+

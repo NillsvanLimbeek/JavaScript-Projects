@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    font-family: "Lato";
+    display: flex;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.top {
+    display: flex;
+    align-items: flex-end;
+    height: 50vh;
+    width: 100vw;
+}
+
+.weather-icon {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+    margin-right: 10px;
+    margin-bottom: 35px;
+}
+
+.weather-icon i {
+    font-size: 150px;
+}
+
+.temperature {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+    margin-right: 40px;
+}
+
+.temperature p {
+    margin: 0;
+    font-size: 150px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    height: 25vh;
+    width: 100vw;
+}
+
+.condition {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50vw;
+    margin-bottom: 75px;
+    margin-left: 25px;
+}
+
+.condition p {
+    margin: 0;
+    padding: 5px;
+    font-size: 25px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 50vw;
+    padding-top: 57px;
+}
+
+.celsius,
+.fahrenheit {
+    display: block;
+    width: 150px;
+    margin: 0 0 3px 0;
+    padding: 5px 5px 5px 15px;
+    font-size: 25px;
+    color: #909090;
+    transition: color .5s, background-color .5s;
+}
+
+.celsius:hover,
+.fahrenheit:hover{
+    cursor: pointer;
+    color: black;
+} 
+
+.active {
+    color: black;
+    background-color: #eaeaea;
+    border-radius: 5px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer a {
+    text-decoration: none;
+}
+
+/*------------------------------*/
+/*----- Background Classes -----*/
+/*------------------------------*/
+
+.clear {
+    background: linear-gradient(to top left, #f2994a, #f2c94c);    
+}
+
+.clouds {
+    background: linear-gradient(to bottom right, #36d1dc, #5b86e5);
+}
+
+.snow {
+    background: linear-gradient(to top left, #16a085, #f4d03f);
+}
+
+.rain {
+    background: linear-gradient(to bottom right, #cb356b, #bd3f32);
+}
+
+.drizzle {
+    background: linear-gradient(to top left, #d66d75, #e29587);
+}
+
+.thunderstorm {
+    background: linear-gradient(to top left, #4568dc, #b06ab3);
+}
+
+.mist {
+    background: linear-gradient(to top left, #f4c4f3, #fc67fa);
+}
