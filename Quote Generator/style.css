@@ -1,0 +1,113 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 75vh;
+    font-size: 25px;
+    font-family: "Raleway";
+    font-weight: 300;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 750px;
+    padding: 15px;
+}
+
+.quote {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 30px 100px;
+}
+
+.text {
+    text-align: justify;
+    opacity: 1;
+    transition: opacity 2s;
+}
+
+.quote i:first-child {
+    margin-right: 20px;
+}
+
+.quote i:last-child {
+    display: flex;
+    align-items: flex-end;
+    margin-left: 20px;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+    padding: 15px 60px;
+    font-style: italic;
+    opacity: 1;
+    transition: opacity 2s;   
+}
+
+.row {
+    display: flex;
+    padding: 0 75px;
+    margin-top: 25px;
+    font-size: 30px;
+}
+
+.social {
+    display: flex;
+    justify-content: flex-start;
+    flex-grow: 1;
+}
+
+.social i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    background-color: white;
+    color: black;
+    padding: 16px 18px;
+    border-radius: 50%;
+    border: 2px solid black;
+    transition: background-color 1s, color 1s, border 1s;
+}
+
+.social a {
+    text-decoration: none;
+}
+
+.social i:hover {
+    color: white;
+    background-color: #55acee;
+    border: 2px solid transparent;
+}
+
+.next {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
+
+.next i {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    color: black;
+    padding: 10px 17px;
+    border-radius: 50%;
+    border: 2px solid black;
+    transition: background-color 1s, color 1s, border 1s;
+}
+
+.next i:hover {
+    background-color: black;
+    color: white;
+    border: 2px solid transparent;
+}
+
+.fade-out {
+    opacity: 0;
+}

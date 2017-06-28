@@ -1,0 +1,151 @@
+/*-- 1024px to 1200px --*/
+@media only screen and (max-width: 1200px) {
+    .wrapper {
+       width: 650px; 
+    }
+    
+    .text {
+        font-size: 23px;
+    }
+    
+    .author {
+        font-size: 23px;
+    }
+    
+    .quote {
+        padding: 30px 75px;
+    }
+    
+    .quote i:first-child {
+        font-size: 23px;
+    }
+    
+    .quote i:last-child {
+        font-size: 23px;
+    }
+    
+    .next i {
+        font-size: 23px;
+        padding: 8px 15px;
+    }
+    
+    .social i {
+        font-size: 23px;
+        padding: 14px 16px;
+    } 
+}
+
+/*-- 768px to 1023px --*/
+@media only screen and (max-width: 1023px) {
+    .wrapper {
+       width: 550px; 
+    }
+    
+    .text {
+        font-size: 21px;
+    }
+    
+    .author {
+        font-size: 21px;
+    }
+    
+    .quote {
+        padding: 30px 50px;
+    }
+    
+    .quote i:first-child {
+        font-size: 21px;
+    }
+    
+    .quote i:last-child {
+        font-size: 21px;
+    }
+    
+    .next i {
+        font-size: 21px;
+        padding: 6px 13px;
+    }
+    
+    .social i {
+        font-size: 21px;
+        padding: 12px 14px;
+    }    
+}
+
+/*-- 481px to 767px --*/
+@media only screen and (max-width: 767px) {
+    .wrapper {
+       width: 500px; 
+    }
+    
+    .text {
+        font-size: 20px;
+    }
+    
+    .author {
+        font-size: 20px;
+    }
+    
+    .quote {
+        padding: 30px 50px;
+    }
+    
+    .quote i:first-child {
+        font-size: 20px;
+    }
+    
+    .quote i:last-child {
+        font-size: 20px;
+    }
+    
+    .next i {
+        font-size: 19px;
+        padding: 4px 11px;
+    }
+    
+    .social i {
+        font-size: 19px;
+        padding: 10px 12px;
+    }    
+}
+
+/*-- 0px to 480px --*/
+@media only screen and (max-width: 480px) {
+    .wrapper {
+       width: 450px; 
+    }
+    
+    .text {
+        font-size: 18px;
+    }
+    
+    .author {
+        font-size: 18px;
+    }
+    
+    .quote {
+        padding: 30px 50px;
+    }
+    
+    .quote i:first-child {
+        font-size: 18px;
+    }
+    
+    .quote i:last-child {
+        font-size: 18px;
+    }
+    
+    .next i {
+        font-size: 17px;
+        padding: 4px 11px;
+    }
+    
+    .social i {
+        font-size: 17px;
+        padding: 10px 12px;
+    }
+    
+    .row {
+        padding: 0 50px;
+    }
+}
