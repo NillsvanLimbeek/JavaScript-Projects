@@ -1,0 +1,10 @@
+@import "variables.scss";
+
+h1 {
+  @include header;
+}
+
+h2 {
+  @include below-header;
+  border: 5px dashed yellow;
+}
