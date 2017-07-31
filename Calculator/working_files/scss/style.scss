@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import "reset.scss";
 @import "variables.scss";
 
@@ -35,3 +36,15 @@
   height: 95%;
   width: 24%;
 }
+=======
+@import "variables.scss";
+
+h1 {
+  @include header;
+}
+
+h2 {
+  @include below-header;
+  border: 5px dashed yellow;
+}
+>>>>>>> a3584dad46d5a3c86ef3c90c280b6d0024d5c3e5

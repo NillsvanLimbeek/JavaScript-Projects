@@ -7,6 +7,7 @@
     "gulp": "^3.9.1"
   },
   "devDependencies": {
+<<<<<<< HEAD
     "babel-preset-env": "^1.6.0",
     "babel-preset-es2015": "^6.24.1",
     "browser-sync": "^2.18.13",
@@ -15,6 +16,10 @@
     "gulp-clean-css": "^3.7.0",
     "gulp-sass": "^3.1.0",
     "gulp-sourcemaps": "^2.6.0",
+=======
+    "browser-sync": "^2.18.13",
+    "gulp-sass": "^3.1.0",
+>>>>>>> a3584dad46d5a3c86ef3c90c280b6d0024d5c3e5
     "gulp-uglify": "^3.0.0"
   },
   "scripts": {

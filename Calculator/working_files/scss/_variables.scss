@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*----- Mixins -----*/
 //Borders
 @mixin red-border {
@@ -23,3 +24,14 @@
   justify-content: center;
   align-items: center;
 }
+=======
+@mixin header {
+  color: mistyrose;
+  font-size: 100px;
+}
+
+@mixin below-header {
+  color: goldenrod;
+  font-size: 50px;
+}
+>>>>>>> a3584dad46d5a3c86ef3c90c280b6d0024d5c3e5
