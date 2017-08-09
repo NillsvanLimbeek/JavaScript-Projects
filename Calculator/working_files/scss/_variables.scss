@@ -1,9 +1,30 @@
-@mixin header {
-  color: mistyrose;
-  font-size: 100px;
+//Borders
+@mixin red-border {
+  border: 1px solid red;
 }
 
-@mixin below-header {
-  color: goldenrod;
-  font-size: 50px;
+@mixin blue-border {
+  border: 1px solid blue;
+}
+
+@mixin green-border {
+  border: 1px solid green;
+}
+
+//Flex
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+@mixin flex-align-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex-align-right {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }

@@ -2,11 +2,54 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Gulp Test</title>
+    <title>Calculator.JS</title>
     <link rel="stylesheet" href="./public/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,300,400" rel="stylesheet">
   </head>
   <body>
-    <h1>Calculator JavaScript</h1>
+    <div class="wrapper">
+      <div class="calc-wrapper">
+        <div class="top-row">
+          <div class="small-letters"> <p></p> </div>
+          <div class="big-letters"> <p></p> </div>
+        </div>
+
+        <div class="first-row">
+          <div data-key="C"   class="button"> <p>C</p> </div>
+          <div data-key="CE"  class="button"> <p>C/E</p> </div>
+          <div data-key="X"   class="button"> <p>X</p></div>
+          <div data-key=" / "   class="button" ><p>/</p> </div>
+        </div>
+
+        <div class="second-row">
+          <div data-key="7"   class="button"> <p>7</p> </div>
+          <div data-key="8"   class="button"> <p>8</p> </div>
+          <div data-key="9"   class="button"> <p>9</p> </div>
+          <div data-key=" * " class="button"> <p>*</p> </div>
+        </div>
+
+        <div class="third-row">
+          <div data-key="4"   class="button"> <p>4</p> </div>
+          <div data-key="5"   class="button"> <p>5</p> </div>
+          <div data-key="6"   class="button"> <p>6</p> </div>
+          <div data-key=" - " class="button"> <p>-</p> </div>
+        </div>
+
+        <div class="fourth-row">
+          <div data-key="1"   class="button"> <p>1</p> </div>
+          <div data-key="2"   class="button"> <p>2</p> </div>
+          <div data-key="3"   class="button"> <p>3</p> </div>
+          <div data-key=" + " class="button"> <p>+</p> </div>
+        </div>
+
+        <div class="fifth-row">
+          <div data-key="0"class="button zero"><p>0</p></div>
+          <div data-key="."class="button point"><p>.</p></div>
+          <div data-key=" = "class="button equals"><p>=</p></div>
+        </div>
+
+      </div>
+    </div>
 
     <script src="./public/scripts/script.js"></script>
 
