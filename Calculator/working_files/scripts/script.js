@@ -136,8 +136,16 @@ function operator(input) {
 
 //Add number numbersArray. Show the numbersArray on screen
 function addNumber(input) {
-  numbers.push(input.dataset.key);
-  bigDisplay.textContent = numbers.toString().replace(/,/g, "");
+  //Check numbersArray length
+  if (numbers.length < 10) {
+    numbers.push(input.dataset.key);
+    bigDisplay.textContent = numbers.toString().replace(/,/g, "");
+    console.log("Smaller")
+  } else {
+    //Display error if numbersArray > 10
+    bigDisplay.textContent = "Size Limit";
+    console.log("Bigger");
+  }
 }
 
 //Add a operator to numbersArray. Show the numbersArray on screen.

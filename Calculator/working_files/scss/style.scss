@@ -5,15 +5,15 @@
   @include flex-align-center;
   width: 100vw;
   height: 100vh;
-  background: linear-gradient(to bottom,#9a1725,#b51f13);
+  background: linear-gradient(to top left, #c33764, #1d2671);
 }
 
 .calc-wrapper {
   width: 400px;
   height: 600px;
-  background: linear-gradient(to bottom, #cb2d3e, #ef473a);
-  box-shadow: 1px 1px 20px 8px rgba(0, 0, 0, 0.3);
-  padding: 6px 5px;
+  background: linear-gradient(to top, #4568dc, #b06ab3);
+  box-shadow: 5px 5px 15px 5px rgba(0,0,0,.3);
+  padding: 4px 3px;
 }
 
 .top-row, {
@@ -63,9 +63,8 @@
   @include flex-align-center;
   height: 95%;
   width: 24%;
-  background-color: rgba(160, 157, 35, 0.05);
-  box-shadow: inset 0 0 10px 1px rgba(206, 39, 44, 0.71);
-  border: 1px solid rgba(165, 85, 85, 0.31);
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.13);
   cursor: pointer;
 
   p {
@@ -86,4 +85,13 @@
 
 .button.equals {
   margin-left: 1px;
+}
+
+.footer {
+  @include flex-center;
+  margin-top: 25px;
+
+  a{
+    color: black;
+  }
 }
