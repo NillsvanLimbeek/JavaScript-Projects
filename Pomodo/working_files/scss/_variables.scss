@@ -1,0 +1,33 @@
+//Mixins
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+@mixin flex-center-align {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin flex-align {
+  display: flex;
+  align-items: center;
+}
+
+//Borders
+@mixin red-border {
+  border: 1px solid red;
+}
+
+@mixin green-border {
+  border: 1px solid green;
+}
+
+@mixin yellow-border {
+  border: 1px solid yellow;
+}
+
+@mixin blue-border {
+  border: 1px solid blue;
+}
