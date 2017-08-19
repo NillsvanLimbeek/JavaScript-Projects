@@ -1,6 +1,9 @@
 # JavaScript-Projects
 
-Color Guessing Game
+This is a list of my finished JavaScript Projects.<br>
+Take a look and tell me what you think.<br>
+
+Color Guessing Game<br>
 https://nillsvanlimbeek.github.io/color_guessing_game/
 
 Drum Kit
