@@ -7,7 +7,7 @@ Color Guessing Game<br>
 https://nillsvanlimbeek.github.io/color_guessing_game/<br>
 
 Guess the color based on the RGB index.<br>
-<br>
+
 <h2>User Story<h2><br>
 
 Drum Kit
