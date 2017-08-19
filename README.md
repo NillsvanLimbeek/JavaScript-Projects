@@ -8,7 +8,9 @@ https://nillsvanlimbeek.github.io/color_guessing_game/<br>
 
 Guess the color based on the RGB index.<br>
 
-<h2>User Story<h2><br>
+<h3>User Story</h3><br>
+<li>User can click on the squares</li>
+
 
 Drum Kit
 https://nillsvanlimbeek.github.io/drum_kit/
