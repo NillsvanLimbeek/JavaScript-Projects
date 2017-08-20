@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./public/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
+    <title>Pomodoro Clock</title>
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="top-row">
+        <div class="left">
+          <div class="session-text">
+            <p>Session</p>
+          </div>
+
+          <div class="session-display">
+            <p data-key="session-plus" class="button"><i class="fa fa-plus-circle" aria-hidden="true"></i></p>
+            <p class="session-time">25</p>
+            <p data-key="session-minus" class="button"><i class="fa fa-minus-circle" aria-hidden="true"></i></p>
+          </div>
+        </div>
+
+        <div class="right">
+          <div class="break-text">
+            <p>Break</p>
+          </div>
+
+          <div class="break-display">
+            <p data-key="break-plus" class="button"><i class="fa fa-plus-circle" aria-hidden="true"></i></p>
+            <p class="break-time">5:00</p>
+            <p data-key="break-minus" class="button"><i class="fa fa-minus-circle" aria-hidden="true"></i></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="middle-row">
+        <p class="hours"></p>
+        <p class="minutes">00</p>
+        <p class="seconds"></p>
+      </div>
+
+      <div class="bottom-row">
+        <p data-key="start" class="button">Play</p>
+        <p data-key="stop" class="button">Pauze</p>
+      </div>
+    </div>
+
+    <script src="./public/scripts/script.js"></script>
+  </body>
+</html>

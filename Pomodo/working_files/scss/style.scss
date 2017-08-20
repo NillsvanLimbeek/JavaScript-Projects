@@ -1,0 +1,155 @@
+@import "reset.scss";
+@import "variables.scss";
+
+body {
+  @include flex-center-align;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(to bottom, #74ebd5, #acb6e5);
+  font-family: "Lato";
+}
+
+.wrapper {
+  width: 400px;
+  height: 400px;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 5%;
+}
+
+.top-row {
+  display: flex;
+  height: 25%;
+  padding: 20px 0 0 0;
+}
+
+.left {
+  height: 100%;
+  width: 50%;
+  padding: 5px 0;
+  transition: .5s
+}
+
+.session-text {
+  @include flex-center-align;
+  width: 100%;
+  height: 25%;
+  padding-bottom: 10px;
+
+  p {
+    font-size: 22px;
+    text-transform: uppercase;
+    border-bottom: 1px solid black;
+    padding: 0 10px;
+  }
+}
+
+.session-display {
+  @include flex-align;
+  justify-content: center;
+  width: 100%;
+  height: 75%;
+
+  p {
+    font-size: 50px;
+    font-weight: 300;
+    margin: 5px 10px;
+  }
+
+  i {
+    font-size: 20px;
+  }
+}
+
+.right {
+  height: 100%;
+  width: 50%;
+  padding: 5px 0;
+  transition: .5s;
+}
+
+.break-text {
+  @include flex-center-align;
+  width: 100%;
+  height: 25%;
+  padding-bottom: 10px;
+
+  p {
+    font-size: 22px;
+    text-transform: uppercase;
+    border-bottom: 1px solid black;
+    padding: 0 10px;
+  }
+}
+
+.break-display {
+  @include flex-align;
+  justify-content: center;
+  width: 100%;
+  height: 75%;
+
+  p {
+    font-size: 50px;
+    font-weight: 300;
+    margin: 5px 10px;
+  }
+
+  i {
+    font-size: 20px;
+  }
+}
+
+.text-row {
+  @include flex-center-align;
+  height: 5%;
+
+  p {
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+}
+
+.middle-row {
+  @include flex-center-align;
+  height: 50%;
+  font-size: 50px;
+
+  p {
+    font-size: 80px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    margin: 0 15px;
+  }
+}
+
+.minutes {
+  margin: 0 15px;
+}
+
+.bottom-row {
+  @include flex-center-align;
+  height: 20%;
+
+  p {
+    margin: 0 50px 35px 50px;
+    padding: 0 10px;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 1px solid black;
+  }
+}
+
+.button {
+  @include flex-center-align;
+  cursor: pointer;
+}
+
+.white-border {
+  background-color: rgba(255, 255, 255, 0.25);
+  border-radius: 5%;
+  padding: 5px 0;
+  transition: .5s;
+}
