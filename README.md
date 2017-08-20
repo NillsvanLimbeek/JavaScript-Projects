@@ -30,6 +30,8 @@ Try and guess the color based on the RGB index on top of the page.
 ![Color Guessing Game](./project_images/color_guessing_game.gif)
 
 ## Drum Kit
+https://nillsvanlimbeek.github.io/drum_kit/
+
 Make some noise!
 
 ### User Story
@@ -38,6 +40,8 @@ Make some noise!
 ![Drum Kit](./project_images/drum_kit.gif)
 
 ## Pomodoro Clock
+https://nillsvanlimbeek.github.io/pomodoro/
+
 A FreeCodeCamp assignment. Build a working pomodoro clock in JavaScript.
 
 ### User Story
@@ -48,6 +52,8 @@ A FreeCodeCamp assignment. Build a working pomodoro clock in JavaScript.
 ![Pomodoro Clock](./project_images/pomodoro_clock.gif)
 
 ## Quote Machine
+https://nillsvanlimbeek.github.io/quote_generator/
+
 A FreeCodeCamp assignment. Build a app that randomly shows quotes.
 
 ### User Story
